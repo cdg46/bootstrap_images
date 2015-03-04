@@ -1,16 +1,31 @@
 tt_content.image.20 {
+
+	1 {
+		params.override.cObject = CASE
+		params.override.cObject {
+			key.field = imageborder
+			1 = TEXT
+			1.value = class="lazyload img-rounded"
+			2 = TEXT
+			2.value = class="lazyload img-circle"
+			3 = TEXT
+			3.value = class="lazyload img-thumbnail"
+			4 = TEXT
+			4.value = class="lazyload img-responsive"
+	}
+
 	border >
 	addClassesImage >
 	addClassesImage.override.cObject = CASE
 	addClassesImage.override.cObject {
 		key.field = imageborder
 		1 = TEXT
-		1.value = img-rounded-wrap
+		1.value = img-rounded
 		2 = TEXT
-		2.value = img-circle-wrap
+		2.value = img-circle
 		3 = TEXT
-		3.value = img-thumbnail-wrap
+		3.value = img-thumbnail
 		4 = TEXT
-		4.value = img-responsive-wrap
+		4.value = img-responsive
 	}
 }
