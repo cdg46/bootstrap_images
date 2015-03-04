@@ -1,0 +1,16 @@
+tt_content.image.20 {
+	border >
+	addClassesImage >
+	addClassesImage.override.cObject = CASE
+	addClassesImage.override.cObject {
+		key.field = imageborder
+		1 = TEXT
+		1.value = img-rounded-wrap
+		2 = TEXT
+		2.value = img-circle-wrap
+		3 = TEXT
+		3.value = img-thumbnail-wrap
+		4 = TEXT
+		4.value = img-responsive-wrap
+	}
+}
